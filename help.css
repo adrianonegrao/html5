@@ -1,0 +1,29 @@
+.help{
+	background-color: #F1EFE6;
+	border: 1px solid #D3CDAE;
+	font-size: 0.9em;
+	padding: 10px;
+	position: relative;
+	width: 300px;
+}
+
+.help::before{
+	border-color: transparent #D3CDAE transparent transparent;
+	content: "";
+	border-style: solid;
+	border-width: 14px;
+	left: -28;
+	position: absolute;
+	margin-top: -14px;
+	top: 50%;
+}
+
+.tip::before{
+	content: "\261E";
+	margin-right: 10px;
+}
+
+blockquote {
+color: #444;
+font-style: italic;
+}
